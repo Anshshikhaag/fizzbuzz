@@ -14,4 +14,9 @@ public class FizzBuzzTest {
 	Assert.assertEquals( "1", fizzbuzz.convert(1));
 	Assert.assertEquals( "2", fizzbuzz.convert(2));
    }
+   @Test
+    public void fizzbuztest2(){
+	   FizzBuzz fizzbuzz=new FizzBuzz();
+	   Assert.assertEquals("fizz", fizzbuzz.convert(3));
+   }
 }
