@@ -1,10 +1,17 @@
 package test.java;
-
+import org.junit.Assert;
 import org.junit.Test;
+
+
+import main.FizzBuzz;
 
 public class FizzBuzzTest {
    @Test
-	public void fizzbuzConertor(){
+	public void fizzbuztest1(){
+	   FizzBuzz fizzbuzz = new FizzBuzz();
 	   
+	  
+	Assert.assertEquals( "1", fizzbuzz.convert(1));
+	Assert.assertEquals( "2", fizzbuzz.convert(2));
    }
 }
