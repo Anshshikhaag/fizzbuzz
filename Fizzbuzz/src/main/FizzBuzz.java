@@ -7,7 +7,7 @@ public class FizzBuzz {
 		
 	if(checkfizzbuzz%3==0)
 	{
-		return "fizz";
+		return "Fizz";
 	}
    
 	return String.valueOf(checkfizzbuzz);
